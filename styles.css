@@ -1,0 +1,37 @@
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+#calculator{
+    background-color: rgb(128, 128, 107);
+    overflow: hidden;
+    max-width: 500px;
+    border-radius: 15px;
+}
+#display{
+    width: 100%;
+    font-size: 4rem;
+    padding:10px;
+    background-color: black;
+    color: rgb(250, 248, 245);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.func{
+    background-color: rgb(219, 133, 20);
+}
